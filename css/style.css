@@ -1,0 +1,68 @@
+
+.box {
+	color: ghostwhite;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.box::before {
+	background-image: url(http://apipayments.com/wp-content/uploads/2017/10/Developers-background.jpg);
+	background-size: cover;
+	content: "";
+	display: block;
+	position: fixed;
+	margin-left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	background-color: rgba(63, 73, 82, 0.88);
+}
+
+.title {
+	background-color: rgba(63, 73, 82, 0.88);
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.contact-me {
+	max-width: 400px;
+	margin: 50px auto;
+	background-color: rgba(63, 73, 82, 0.88);
+	padding: 20px;
+}
+
+.form-group {
+	margin-bottom: 0;
+	position: relative;
+}
+
+input,
+form textarea {
+	margin-bottom: 5px;
+}
+
+textarea {
+	height: 100px !important
+}
+
+i {
+	height: 0;
+	float: left;
+	position: relative;
+	top: 11px;
+	left: 18px;
+	color: #6c757d;
+}
+
+.fa-paper-plane {
+	color: #fff;
+}
+
+
+.alert {
+	margin-bottom: 5px;
+	display: none;
+	padding: 5px 10px 5px 10px;
+}
